@@ -1,6 +1,5 @@
-function fun()
-{
+function fun() {
     console.log("Loading...");
-    window.location = "navar.html";
+    window.location = "index.html";
 }
-setTimeout("fun()", 5000); 
+setTimeout("fun()", 5000);

@@ -6,19 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .center,
+        form {
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h3>redirect Menggunakan Javascript</h3>
+        <form>
+            <input type="button" value="Pindahkan Aku" onclick="Redirect()" />
+        </form>
+    </div>
+
     <script>
         function Redirect() {
             window.location = "redirect5.html"
         }
     </script>
-</head>
-
-<body>
-
-    <p>redirect using Javascript</p>
-    <form>
-        <input type="button" value="Redirect Me" onclick="Redirect()" />
-    </form>
 </body>
 
 </html>

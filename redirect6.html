@@ -6,11 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div {
+            margin: auto;
+            width: 50%;
+            border: none;
+            top: 2em;
+            justify-self: center;
+            text-align: center;
+        }
+        
+        a:hover,
+        button:hover {
+            background-color: red;
+        }
+        
+        button {
+            border-radius: 5px;
+            padding: 11px 3px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: orange;
+            border-radius: 3px;
+            background-color: black;
+            padding: 8px 10px;
+        }
+        
+        hr {
+            margin: 2em;
+        }
+    </style>
 </head>
 
 <body>
-    <input type="button" value="Click here" onclick="fun()">
-    <a href="direct main.html" target="_blank">Open To The Site</a>
+    <div class="center">
+        <iframe src="direct_Main.html" style="  border: none;" title="Iframe Example" title="description"></iframe>
+        <h3>Jika Tidak Memilih Akan Berpindah Otomatis Ke Halaman Awal Sampai Hitungan Ke 4 </h3>
+        <input type="button" value="Kembali Ke Awal" onclick="fun()">
+        <br>
+        <hr>
+        <button><a href="direct_Main.html"  target="_blank">Buka Tab Baru</a></button>
+    </div>
     <script src="external.js"></script>
 </body>
 

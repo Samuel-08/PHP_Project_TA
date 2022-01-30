@@ -2,18 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>JavaScript Automatic Page Redirect</title>
-    <script>
-        function pageRedirect() {
-            window.location.replace("redirect2.html");
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        .center {
+            margin: auto;
+            width: 20%;
+            border: none;
         }
-        setTimeout("pageRedirect()", 5000);
-    </script>
+    </style>
+    <title>JavaScript Automatic Page Redirect</title>
 </head>
 
 <body>
-    <p><strong>Note:</strong> You will be redirected to the tutorialrepublic.com in 5 sec.</p>
+
+
+
+    <div class="center">
+        <iframe src="direct_Main.html" style="  border: none;" title="Iframe Example" title="description"></iframe>
+
+
+        <p> <strong>Catatan:</strong> Sekarang kamu akan di redirected menuju halaman lain dalam 4 detik. </p>
+    </div>
+
+
+
+    <script>
+        function pageRedirect() {
+            window.location.replace('redirect2.html')
+        }
+        setTimeout('pageRedirect()', 5000);
+    </script>
 </body>
 
 </html>
