@@ -5,5 +5,5 @@ setInterval(() => {
     counter.innerText = count;
     count++
 
-    if (count > 5) location.replace('index.html')
-}, 2000)
+    if (count > 5) location.replace('index.html');
+}, 1000);
